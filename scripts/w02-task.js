@@ -23,7 +23,7 @@ imageElement.setAttribute ('src', profilePicture);
 
 /* Step 5 - Array */
 
-let favoriteFoods = ['Arepa', 'Cachapa', 'CheeseBurger', 'Pabellon', 'Pizza']
+let favoriteFoods = ['Arepa', 'Cachapa', 'CheeseBurger', 'Pabellon', 'Pizza'];
 foodElement.innerHTML += `<br>${favoriteFoods}`;
 let extraFood = 'Hotdog';
 favoriteFoods.push(extraFood);
